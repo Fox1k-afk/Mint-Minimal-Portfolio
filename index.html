@@ -8,27 +8,82 @@
 	<title>Mint</title>
 	<link rel="stylesheet" href="./stlye/reset.css">
 	<link rel="stylesheet" href="./stlye/style.css">
+	<link rel="stylesheet" href="./js/script.js">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-	<header>
-		<div class="container">
+	<header class="header">
+		<div class="container header__container">
 			<div class="header-wrapper">
-				<div class="logo"><img src="./img/LOGO.png" alt="#"></div>
-				<nav class="navbar">
-					<ul class="nav-menu">
-						<li class="nav-menu__item nav-item"><a href="#">work</a></li>
-						<li class="nav-menu__item nav-item"><a href="#">about</a></li>
-						<li class="nav-menu__item nav-item"><a href="#">blog</a></li>
-						<li class="nav-menu__item nav-item"><a href="#">contact</a></li>
+				<div class="header__logo"><img src="./img/LOGO.png" alt="#"></div>
+				<nav class="header__menu">
+					<ul class="header__list">
+						<li class="header__link nav-item"><a href="#">work</a></li>
+						<li class="header__link nav-item"><a href="#">about</a></li>
+						<li class="header__link nav-item"><a href="#">blog</a></li>
+						<li class="header__link nav-item"><a href="#">contact</a></li>
 					</ul>
 				</nav>
 			</div>
 		</div>
 	</header>
+	<main>
+		<section class="hello">
+			<div class="container hello__container">
+				<div class="hello__wrapper">
+					<div class="hello__text-info">
+						<div class="hello__title title">
+							Hello!!!
+							<span>We Are Creative</span>
+							Digital Agency.
+						</div>
+						<div class="hello__text text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+							et
+							dolore magna aliqua.
+						</div>
+						<div class="button">
+							<button class="btn hello-button">send message</button>
+						</div>
+					</div>
+					<div class="hello__img">
+						<img src="./img/IMAGE.png" alt="#">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="showcase"></section>
+		<div class="container showcase__container">
+			<div class="showcase__title title">
+				WORK SHOWCASE.
+			</div>
+			<div class="showcase__nav-wrapper">
+				<nav class="showcase__menu">
+					<ul class="showcase__list">
+						<li class="showcase__link showcase__link_active nav-item"><a href="#">all</a></li>
+						<li class="showcase__link nav-item"><a href="#">branding</a></li>
+						<li class="showcase__link nav-item"><a href="#">illustration</a></li>
+						<li class="showcase__link nav-item"><a href="#">web</a></li>
+					</ul>
+				</nav>
+				<div class="showcase__dropdown nav-item">
+					<button class="showcase__dropbtn nav-item">newest first
+						<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="showcase__dropdown-content">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 </body>
 
 </html>
