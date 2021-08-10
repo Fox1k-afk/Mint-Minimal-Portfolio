@@ -13,6 +13,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- OwlCarousel -->
+	<link rel="stylesheet" href="./Owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="./Owlcarousel/assets/owl.theme.default.min.css">
+
 </head>
 
 <body>
@@ -57,50 +61,131 @@
 			</div>
 		</section>
 
-		<section class="showcase"></section>
-		<div class="container showcase__container">
-			<div class="showcase__title title">
-				WORK SHOWCASE.
+		<section class="showcase">
+			<div class="container showcase__container">
+				<div class="showcase__title title">
+					WORK SHOWCASE.
+				</div>
+				<div class="showcase__nav-wrapper">
+					<nav class="showcase__menu">
+						<ul class="showcase__list">
+							<li class="showcase__link showcase__link_active nav-item"><a href="#">all</a></li>
+							<li class="showcase__link nav-item"><a href="#">branding</a></li>
+							<li class="showcase__link nav-item"><a href="#">illustration</a></li>
+							<li class="showcase__link nav-item"><a href="#">web</a></li>
+						</ul>
+					</nav>
+					<div class="showcase__dropdown nav-item">
+						<button class="showcase__dropbtn nav-item">newest first
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="showcase__dropdown-content">
+							<a href="#">Link 1</a>
+							<a href="#">Link 2</a>
+							<a href="#">Link 3</a>
+						</div>
+					</div>
+				</div>
+				<div class="gallery">
+					<div class="container gallery__container">
+						<div class="gallery__wrap">
+							<div class="gallery__items">
+								<div class="gallery__item_1 gallery__item"><img src="./img/artwork/IMAGE 1.png" alt=""></div>
+								<div class="gallery__item_2 gallery__item"><img src="./img/artwork/IMAGE 3.png" alt=""></div>
+								<div class="gallery__item_3 gallery__item"><img src="./img/artwork/IMAGE 5.png" alt=""></div>
+								<div class="gallery__item_4 gallery__item"><img src="./img/artwork/IMAGE 2.png" alt=""></div>
+								<div class="gallery__item_5 gallery__item"><img src="./img/artwork/IMAGE 4.png" alt=""></div>
+								<div class="gallery__item_6 gallery__item"><img src="./img/artwork/IMAGE 6.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="showcase__button">
+					<button class="showcase__btn btn">show me more</button>
+				</div>
 			</div>
-			<div class="showcase__nav-wrapper">
-				<nav class="showcase__menu">
-					<ul class="showcase__list">
-						<li class="showcase__link showcase__link_active nav-item"><a href="#">all</a></li>
-						<li class="showcase__link nav-item"><a href="#">branding</a></li>
-						<li class="showcase__link nav-item"><a href="#">illustration</a></li>
-						<li class="showcase__link nav-item"><a href="#">web</a></li>
-					</ul>
-				</nav>
-				<div class="showcase__dropdown nav-item">
-					<button class="showcase__dropbtn nav-item">newest first
-						<i class="fa fa-caret-down"></i>
-					</button>
-					<div class="showcase__dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
+		</section>
+		<section class="carousel">
+			<div class="carousel__wrapper">
+				<div class="container carousel__container">
+					<div class="owl-carousel">
+						<div class="slide1"><img class="slide1_big" src="./img/carousel/1.png" alt="#"></div>
+						<div class="slide1"><img src="./img/carousel/2.png" alt="#"></div>
+						<div class="slide1"><img src="./img/carousel/3.png" alt="#"></div>
+						<div class="slide1"><img src="./img/carousel/4.png" alt="#"></div>
+						<div class="slide1"><img src="./img/carousel/5.png" alt="#"></div>
+						<div class="slide1"><img src="./img/carousel/6.png" alt="#"></div>
 					</div>
 				</div>
 			</div>
-			<div class="gallery">
-				<div class="container gallery__container">
-					<div class="gallery__wrap">
-						<div class="gallery__items">
-							<div class="gallery__item_1 gallery__item"><img src="./img/artwork/IMAGE 1.png" alt=""></div>
-							<div class="gallery__item_2 gallery__item"><img src="./img/artwork/IMAGE 3.png" alt=""></div>
-							<div class="gallery__item_3 gallery__item"><img src="./img/artwork/IMAGE 5.png" alt=""></div>
-							<div class="gallery__item_4 gallery__item"><img src="./img/artwork/IMAGE 2.png" alt=""></div>
-							<div class="gallery__item_5 gallery__item"><img src="./img/artwork/IMAGE 4.png" alt=""></div>
-							<div class="gallery__item_6 gallery__item"><img src="./img/artwork/IMAGE 6.png" alt=""></div>
+		</section>
+		<section class="About-Us">
+			<div class="container About-Us__container">
+				<div class="About-Us__header">
+					<div class="About-Us__title title">
+						about us.
+					</div>
+					<div class="About-Us__subtitle text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+						<span>ut labore et dolore magna aliqua.</span>
+					</div>
+				</div>
+				<div class="About-Us__wrapper">
+					<div class="About-Us__item">
+						<img src="./img/About_Us/1.png" alt="#">
+						<div class="item__box">
+							<div class="item__text">
+								<p class="item__text_black title">Luke Skywalker</p>
+								<p class="item__text_white text">Web Designer</p>
+							</div>
+						</div>
+					</div>
+					<div class="About-Us__item">
+						<img src="./img/About_Us/2.png" alt="#">
+						<div class="item__box">
+							<div class="item__text">
+								<p class="item__text_black title">Luke Skywalker</p>
+								<p class="item__text_white text">Web Designer</p>
+							</div>
+						</div>
+					</div>
+					<div class="About-Us__text-box">
+						<div class="text-box__title title">
+							Little About Us
+						</div>
+						<div class="text-box__text text">
+							Lorem ipsum dolor sit amet, consectetur
+							<span>adipiscing elit, sed do eiusmod temp</span>
+							<span>orincididunt ut labore et dolore magna </span>
+							aliqua.
+						</div>
+						<div class="text-box__text text">
+							Read More
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="showcase__button">
-				<button class="showcase__btn btn">show me more</button>
-			</div>
-		</div>
+		</section>
 	</main>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="./Owlcarousel/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			$(".owl-carousel").owlCarousel({
+				items: 6,
+				margin: 35,
+				loop: true,
+				dots: false,
+				nav: true,
+				autoplayTimeout: 2000,
+				autoplayHoverPause: true,
+				autoHeight: true,
+
+			});
+		});
+	</script>
 </body>
 
 </html>
