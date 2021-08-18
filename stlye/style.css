@@ -52,6 +52,7 @@ body {
  width: 100%;
  top: 0;
  left: 0;
+ position: sticky;
  z-index: 20;
 }
 .header-wrapper {
@@ -59,7 +60,6 @@ body {
  justify-content: space-between;
  align-items: center;
  height: 100px;
- margin-bottom: 100px;
 }
 
 .header__link {
@@ -78,6 +78,7 @@ body {
  margin-bottom: 130px;
 }
 .hello__wrapper {
+ margin-top: 100px;
  display: flex;
 }
 .hello__title {
@@ -827,8 +828,9 @@ body {
  color: #fff;
 }
 
-.footer__to-top {
+.footer__anchor {
  color: #fff;
+ text-decoration: none;
 }
 @media (max-width: 430px) {
  .footer {
